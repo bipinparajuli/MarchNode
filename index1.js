@@ -15,11 +15,14 @@
 // app.listen(port,hostname,()=>{
 //     console.log("App is running")
 // })
-const bycrypt = require("bcrypt")
-const password = "bipin"
+// const bycrypt = require("bcrypt")
+// const password = "bipin"
 
-bycrypt.hash(password,11).then((hash)=>{
-bycrypt.compare(password + "abbc",hash).then((result)=>{
-        console.log(result)
-    })
-})
+// bycrypt.hash(password,11).then((hash)=>{
+
+//     console.log(typeof hash,typeof password)
+//     bycrypt.compare(password + "abbc",hash).then((result)=>{
+//         console.log(result)
+//     })
+// })
+
